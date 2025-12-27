@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="google-site-verification" content="hskCY7bZCp36GD07tNlXQ6n-YgK8hw9BRBWIYHOHVQI" />
+  <!-- 👉 UNIQUE TITLE for mrgargsir.github.io/HEWP-Excel-Addins -->
+  <title>HEWP Tools Addins and Extension Documentation - Official HEWP Tools User Guide</title>
+  <!-- 👉 UNIQUE META DESCRIPTION -->
+  <meta name="description" content="Official documentation for HEWP Tools Addins & Extension by MRGARGSIR. Complete reference covering HSR database usage, template customization, portal integration, automation features, calculator tools, Chrome extension, and advanced techniques. Essential guide for HEWP contractors. Estimation & Billing Tools , Haryana Engineering Works Portal BILLS , MB , HSR 2023 WITH AMENDS , REAL TIME SEARCH ITEM NO. OR DES, IN HSR , UNIT CONVERTER, AUTO HSR ITEM NO. DESCRIPTION, RATE, TYPE, UNIT, FETCHER, AUTO DATA COPY PASTE TO TEMPLATE , AUTO INTELLIGENT DATA ARRANGED IN TEMPLATES" />
+  <meta name="keywords" content="HEWP documentation, HEWP Excel addins guide, HSR database manual, mrgargsir tools, hewp tool, hewp tools, hewptools,hewptool, mrgargsir store, billing tools, mrgargsir, HEWP templates, portal integration guide, HEWP automation, contractor documentation, mrgargsir tools, hewp tool, hewp tools, hewptools,hewptool, mrgargsir store, billing tools, mrgargsir, HEWP tools manual, Excel addins help" />
+
+  <!-- 👉 CANONICAL TAG pointing to this specific URL -->
+  <link rel="canonical" href="https://mrgargsir.github.io/HEWP-TOOLS-Addins-and-Extensions/" />
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  
+  <meta name="msapplication-TileColor" content="#0f1720">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#06b6d4">
+  
+  <meta name="theme-color" content="#0f1720">
+  <meta name="msapplication-navbutton-color" content="#0f1720">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="robots" content="index, follow" />
+  <!-- 👉 UNIQUE OG TAGS -->
+  <meta property="og:title" content="HEWP Tools Addins & Extension - Official Documentation Portal" />
+  <meta property="og:description" content="Complete documentation and guides for HEWP Extensions, automation tools and Excel Addins." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mrgargsir.github.io/HEWP-TOOLS-Addins-and-Extensions/" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/logo.png" />
+  <meta property="og:image:width" content="256" />
+  <meta property="og:image:height" content="256" />
+  <meta property="og:image:alt" content="HEWP Documentation" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/logo.png" />
+  <style>
+    :root {
+      --bg: #0f1720;
+      --card: #0b1220;
+      --accent: #06b6d4;
+      --text: #e6eef6
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, system-ui, Arial;
+      background: linear-gradient(180deg, #071026 0%, #071726 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+      backdrop-filter: blur(6px)
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .logo-container a {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .logo-container a:hover {
+      transform: scale(1.3);
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+      cursor: pointer;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+      text-align: center
+    }
+
+    p.lead {
+      margin: 0 0 18px;
+      color: rgba(230, 238, 246, 0.8);
+      font-size: 13px;
+      text-align: center
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      justify-items: center
+    }
+
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #ffffff;
+      border: none;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+      min-width: 260px;
+      text-align: center
+    }
+
+    a.button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+      filter: brightness(1.05);
+    }
+
+    .btn-grid a.button:nth-child(1) {
+      background: linear-gradient(135deg, #2563eb, #06b6d4);
+    }
+
+    .btn-grid a.button:nth-child(2) {
+      background: linear-gradient(135deg, #dc2626, #f59e0b);
+    }
+
+    .btn-grid a.button:nth-child(3) {
+      background: linear-gradient(135deg, #10b981, #22c55e);
+    }
+
+    .btn-grid a.button:nth-child(4) {
+      background: linear-gradient(135deg, #7c3aed, #ec4899);
+    }
+
+    .btn-grid a.button:nth-child(5) {
+      background: linear-gradient(135deg, #0f766e, #14b8a6);
+    }
+
+    a.button svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      opacity: 0.95
+    }
+
+    .muted {
+      display: block;
+      margin-top: 14px;
+      font-size: 12px;
+      color: rgba(230, 238, 246, 0.6);
+      text-align: center
+    }
+
+    .full {
+      grid-column: 1/-1
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card" role="main" itemscope itemtype="https://schema.org/TechArticle">
+    <div class="logo-container">
+      <a href="https://mrgargsir.github.io/HEWP-TOOLS-Addins-and-Extensions/" target="_blank" rel="noopener noreferrer">
+        <img class="logo" src="https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/logo.png"
+          alt="HEWP Documentation Logo" />
+      </a>
+    </div>
+
+    <!-- 👉 UNIQUE H1 HEADING -->
+    <h1 itemprop="name">HEWP Tools Addins & Extension - Official Documentation & Guides</h1>
+    <!-- 👉 UNIQUE LEAD TEXT -->
+    <p class="lead" itemprop="description">The definitive documentation portal for HEWP Excel Addins. Master every feature with our comprehensive guides covering HSR database navigation and search techniques, template customization and management, portal integration and data upload, automation workflows and time-saving tricks, measurement calculators and formula library, Chrome extension installation and features, and troubleshooting common issues. Written specifically for Haryana PWD, Irrigation, and HSAMB contractors.</p>
+
+    <div class="btn-grid">
+      <a class="button" href="https://mrgargsir.github.io/HEWP-Excel-Addins/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M3 12h18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Browse Latest Main Webpage 
+      </a>
+
+      <a class="button" href="https://mrgargsir.github.io/HEWP-Excel-Addins/#tutorials" target="_blank"
+        rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M10 8l6 4-6 4V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Video Tutorials
+      </a>
+
+      <a class="button" href="https://chat.whatsapp.com/DEXKInfvpBd9cLwyaoq0sd" target="_blank"
+        rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke-width="1.6"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        HEWP Community
+      </a>
+
+      <a class="button" href="https://www.youtube.com/@HEWPTools" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <rect x="2" y="5" width="20" height="14" rx="2" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M10 9l5 3-5 3V9z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Tutorial Library
+      </a>
+
+      <a class="button full"
+        href="https://wa.me/919728532828?text=Hello%2C%20I%20need%20help%20with%20HEWP%20Excel%20Addins%20documentation."
+        target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke-width="1.6"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Get HEWP Help
+      </a>
+    </div>
+
+    <span class="muted">Official HEWP documentation - your complete automation reference.</span>
+  </main>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"HEWP Tools Addins and Extensions Documentation","description":"Official documentation portal for HEWP Extensions, automation tools and Excel Addins.","url":"https://mrgargsir.github.io/HEWP-TOOLS-Addins-and-Extensions/"}</script>
+</body>
+
+</html>
